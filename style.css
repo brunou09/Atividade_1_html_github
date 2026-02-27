@@ -8,10 +8,6 @@ body{
     line-height: 1.5;
 }
 
-#txt{
-    width:70%;
-}
-
 #cover{
     height: 700px;
     width: 510px;
@@ -25,4 +21,5 @@ body{
 #cover_III{
     height: 700px;
     width: 510px;
+
 }
