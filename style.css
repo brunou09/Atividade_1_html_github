@@ -1,0 +1,28 @@
+body{
+    margin: 0;
+    color: aliceblue;
+    background-color:rgb(194, 1, 1);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    object-position: center;
+    text-align: center;
+    line-height: 1.5;
+}
+
+#txt{
+    width:70%;
+}
+
+#cover{
+    height: 700px;
+    width: 510px;
+}
+
+#cover_II{
+    height: 700px;
+    width: 500px;
+}
+
+#cover_III{
+    height: 700px;
+    width: 510px;
+}
