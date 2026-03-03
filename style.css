@@ -8,8 +8,6 @@ body{
     background-color:rgb(0, 0, 0);
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     line-height: 1.5;
-    object-position: center;
-    text-align: center;
 }
 
 .container{
@@ -43,7 +41,6 @@ p{
     display: flex;
     gap: 10px;
     flex-wrap: nowrap;
-    justify-content: center;
 }
 
 .nav-link{
@@ -56,6 +53,17 @@ p{
     font-weight: 700;
 }
 
+.nav-link:hover{
+    background: rgb(255, 240, 0);
+}
+
+.bat-img{
+    width: 220px;
+    height: 120px;
+    border: 2px solid aliceblue;
+    border-radius: 10px;
+}
+
 .box{
     background: rgba(0, 0, 0, 0.75);
     border: 1px solid rgba(240, 240, 255, 0.30);
@@ -64,17 +72,23 @@ p{
     margin-bottom: 12px;
 }
 
-#cover{
-    height: 390px;
-    width: 280px;
+.gallery{
+    width: 920px;
+    display: flex;
+    gap: 10px;
+    flex-wrap: nowrap;
 }
 
-#cover_II{
-    height: 390px;
-    width: 270px;
+footer p{
+    color: rgb(233, 21, 187);
+    margin: 6px 0 0;
 }
 
-#cover_III{
-    height: 390px;
-    width: 280px;
+.link{
+    color: rgb(255, 221, 0);
+    text-decoration: none;
+}
+
+.link:hover{
+    text-decoration: underline;
 }
